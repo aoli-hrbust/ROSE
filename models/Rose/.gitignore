@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__
+data
+dist
+spectralnet.egg-info
+/cluster_mnist.py
+/cluster_twomoons.py
+/data.py
+/src/data.py
+/src/reduce_mnist.py
+/src/reduce_twomoons.py
+/src/spectralnet/_reduction.py
+/src/spectralnet/_trainers/weights
