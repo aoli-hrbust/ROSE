@@ -1,6 +1,6 @@
 The demo code of Curriculum learning: Efficient Multi-view Representations for Incomplete Multi-view Clustering with Pseudo-supervised.
 
-< img src="./docs/rose_framework.jpg" alt="Overview" width="80%">
+< img src="./docs/ROSE_framework.jpg" alt="Overview" width="80%">
 
 An explanation of the pseudo-supervised module is provided here. By constraining the view-specific soft clustering assignments  with a global pseudo-label, this module encourages the resulting unified clustering assignment to preserve discriminative characteristics unique to each view while incorporating cross-view consistency information.
 
