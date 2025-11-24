@@ -3,7 +3,7 @@ The demo code of Curriculum learning: Efficient Multi-view Representations for I
 
 <img src="./docs/ROSE_framework.jpg" alt="Overview" width="80%">
 
-An explanation of the pseudo-supervised module is provided here. By constraining the view-specific soft clustering assignments  with a global pseudo-label, this module encourages the resulting unified clustering assignment to preserve discriminative characteristics unique to each view while incorporating cross-view consistency information.
+We present an overview of ROSE below. It comprises three joint learning components: consistent representation learning, which aims to fully capture cross-view consistent information; and view-specific representation learning, which emphasizes view-specific discriminative information. Additionally, to leverage the consistent and complementary information from these two components, curriculum learning guides the entire model to first learn consistent representations, then progressively focus on view-specific ones. Finally, the pseudo-supervised module encourages each view to retain its specific information while learning cross-view consistent information.
 
 ## Abstract
 
